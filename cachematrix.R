@@ -54,7 +54,7 @@ cacheSolve <- function(x, ...) {
     
     # Check if cached inverse exists. If true, return cached data and stop further processing. 
     if(!is.null(inverse)) {
-        message("Cached inverse available. Retrieving cached inverse data:")
+        message("***Cached inverse available. Retrieving cached inverse data: ***")
         return(inverse)
     }
     
